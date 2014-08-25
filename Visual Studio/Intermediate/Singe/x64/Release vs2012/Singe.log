@@ -1,0 +1,43 @@
+﻿Build started 2014-08-25 14:41:11.
+     1>Project "E:\Projekt\Singe\Visual Studio\Singe.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\Projekt\Singe\Visual Studio\..\Src\Singe\\" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\\" /Fd"E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\vc110.pdb" /Gd /TP /errorReport:prompt ..\Src\Singe\Graphics\Font.cpp ..\Src\Singe\Graphics\Mesh.cpp ..\Src\Singe\Graphics\Renderer.cpp ..\Src\Singe\Graphics\SceneNode.cpp ..\Src\Singe\Graphics\Shader.cpp ..\Src\Singe\Graphics\Texture.cpp ..\Src\Singe\Graphics\TextureRenderTarget.cpp ..\Src\Singe\Utilities\FileSystem.cpp
+         Font.cpp
+     1>..\Src\Singe\Graphics\Font.cpp(41): warning C4267: 'argument' : conversion from 'size_t' to 'UINT32', possible loss of data
+     1>..\Src\Singe\Graphics\Font.cpp(45): warning C4267: '=' : conversion from 'size_t' to 'UINT32', possible loss of data
+         Mesh.cpp
+         Renderer.cpp
+         SceneNode.cpp
+         Shader.cpp
+         Texture.cpp
+         TextureRenderTarget.cpp
+         FileSystem.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"E:\Projekt\Singe\Visual Studio\..\Bin\x64\Release vs2012\Singe.lib" /NOLOGO /MACHINE:X64 /LTCG "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\Frustum.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\Vec2.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\Vec3.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\Vec4.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\Camera.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\TargetCamera.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\Font.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\Mesh.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\Renderer.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\SceneNode.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\Shader.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\ShaderManager.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\Texture.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\TextureRenderTarget.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\SingeStd.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\Button.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\Canvas.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\MessageBox.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\FileSystem.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\Math.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Release vs2012\String.obj"
+         Singe.vcxproj -> E:\Projekt\Singe\Visual Studio\..\Bin\x64\Release vs2012\Singe.lib
+     1>Done Building Project "E:\Projekt\Singe\Visual Studio\Singe.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.94

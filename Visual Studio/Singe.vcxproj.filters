@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\Src\Singe\Geometry\Frustum.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\Geometry\Vec2.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\Geometry\Vec3.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\Geometry\Vec4.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\Graphics\Font.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\Graphics\Mesh.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\Graphics\Renderer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\Graphics\SceneNode.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\Graphics\Shader.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\Graphics\Texture.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\Graphics\TextureRenderTarget.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\Graphics\Cameras\Camera.h">
+      <Filter>Graphics\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\Graphics\Cameras\TargetCamera.h">
+      <Filter>Graphics\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\UI\Button.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\UI\Canvas.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\UI\Interfaces.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\UI\MessageBox.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\Utilities\Colors.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\Utilities\FileSystem.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\Utilities\Macros.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\Utilities\Math.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\Utilities\String.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\Utilities\Templates.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Singe\SingeStd.h" />
+    <ClInclude Include="..\Src\Singe\Graphics\ShaderManager.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\Singe\Geometry\Frustum.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\Geometry\Vec2.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\Geometry\Vec3.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\Geometry\Vec4.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\Graphics\Font.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\Graphics\Mesh.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\Graphics\Renderer.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\Graphics\SceneNode.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\Graphics\Shader.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\Graphics\Texture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\Graphics\TextureRenderTarget.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\Graphics\Cameras\Camera.cpp">
+      <Filter>Graphics\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\Graphics\Cameras\TargetCamera.cpp">
+      <Filter>Graphics\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\UI\Button.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\UI\Canvas.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\UI\MessageBox.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\Utilities\FileSystem.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\Utilities\Math.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\Utilities\String.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Singe\SingeStd.cpp" />
+    <ClCompile Include="..\Src\Singe\Graphics\ShaderManager.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{7734a7c2-3685-438c-95bf-c8982cdae7e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{e912eccd-40d7-41ca-a635-6e9b15c1e49d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{3efd9efe-e801-4df2-9451-fe28ab6f6f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{35d7a9f3-5256-4e4c-84cf-2688c496ace5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Cameras">
+      <UniqueIdentifier>{638eb64d-1638-465b-920c-5a6a5303fb52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

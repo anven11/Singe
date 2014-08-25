@@ -1,0 +1,49 @@
+﻿Build started 2014-08-25 12:57:03.
+     1>Project "E:\Projekt\Singe\Visual Studio\Singe.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\Projekt\Singe\Visual Studio\..\Src\Singe\\" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\\" /Fd"E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Src\Singe\Graphics\Font.cpp ..\Src\Singe\Graphics\Mesh.cpp ..\Src\Singe\Graphics\Renderer.cpp ..\Src\Singe\Graphics\SceneNode.cpp ..\Src\Singe\Graphics\Shader.cpp ..\Src\Singe\Graphics\Texture.cpp ..\Src\Singe\Graphics\TextureRenderTarget.cpp ..\Src\Singe\Utilities\FileSystem.cpp
+         Renderer.cpp
+         Generating Code...
+         Compiling...
+         FileSystem.cpp
+         TextureRenderTarget.cpp
+         Texture.cpp
+         Shader.cpp
+         SceneNode.cpp
+         Mesh.cpp
+         Font.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"E:\Projekt\Singe\Visual Studio\..\Bin\Win32\Debug vs2012\Singe.lib" /NOLOGO "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\Frustum.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\Vec2.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\Vec3.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\Vec4.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\Camera.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\TargetCamera.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\Font.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\Mesh.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\Renderer.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\SceneNode.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\Shader.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\ShaderManager.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\Texture.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\TextureRenderTarget.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\SingeStd.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\Button.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\Canvas.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\MessageBox.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\FileSystem.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\Math.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2012\String.obj"
+     1>Canvas.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Button.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>SingeStd.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ShaderManager.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Frustum.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Singe.vcxproj -> E:\Projekt\Singe\Visual Studio\..\Bin\Win32\Debug vs2012\Singe.lib
+     1>Done Building Project "E:\Projekt\Singe\Visual Studio\Singe.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.66

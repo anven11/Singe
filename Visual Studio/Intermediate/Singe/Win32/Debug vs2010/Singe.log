@@ -1,0 +1,45 @@
+﻿  String.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  Math.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  FileSystem.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  MessageBox.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  Canvas.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  Button.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  SingeStd.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  TextureRenderTarget.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  Texture.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  ShaderManager.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  Shader.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  SceneNode.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  Renderer.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  Mesh.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  Font.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  TargetCamera.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  Camera.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  Vec4.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  Vec3.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  Vec2.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  Generating Code...
+  Compiling...
+  Frustum.cpp
+a:\projekt\singe\src\singe\singestd.h(11): fatal error C1083: Cannot open include file: 'dxgidebug.h': No such file or directory
+  Generating Code...

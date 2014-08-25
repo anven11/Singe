@@ -1,0 +1,27 @@
+﻿Build started 2014-08-25 02:26:14.
+     1>Project "A:\Projekt\Singe\Visual Studio 2013\Singe.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         B:\Program Files\Microsoft Visual Studio Professional 2013\VC\bin\CL.exe /c /I"A:\Projekt\Singe\Visual Studio 2013\..\Src\Singe\\" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"A:\Projekt\Singe\Visual Studio 2013\Intermediate\Singe\Win32\Release\\" /Fd"A:\Projekt\Singe\Visual Studio 2013\Intermediate\Singe\Win32\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Src\Singe\Audio\Audio.cpp ..\Src\Singe\Audio\SoundEffect.cpp ..\Src\Singe\Geometry\Frustum.cpp ..\Src\Singe\Geometry\Vec2.cpp ..\Src\Singe\Geometry\Vec3.cpp ..\Src\Singe\Geometry\Vec4.cpp ..\Src\Singe\Graphics\Cameras\Camera.cpp ..\Src\Singe\Graphics\Cameras\TargetCamera.cpp ..\Src\Singe\Graphics\Font.cpp ..\Src\Singe\Graphics\Mesh.cpp ..\Src\Singe\Graphics\Renderer.cpp ..\Src\Singe\Graphics\SceneNode.cpp ..\Src\Singe\Graphics\Shader.cpp ..\Src\Singe\Graphics\Texture.cpp ..\Src\Singe\Graphics\TextureRenderTarget.cpp ..\Src\Singe\SingeStd.cpp ..\Src\Singe\UI\Button.cpp ..\Src\Singe\UI\Canvas.cpp ..\Src\Singe\UI\MessageBox.cpp ..\Src\Singe\Utilities\FileSystem.cpp ..\Src\Singe\Utilities\Math.cpp ..\Src\Singe\Utilities\String.cpp
+         Audio.cpp
+     1>..\Src\Singe\Audio\Audio.cpp(87): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+     1>..\Src\Singe\Audio\Audio.cpp(78): warning C4101: 'count' : unreferenced local variable
+     1>..\Src\Singe\Audio\Audio.cpp(76): warning C4101: 'bufferPtr' : unreferenced local variable
+     1>..\Src\Singe\Audio\Audio.cpp(75): warning C4101: 'waveData' : unreferenced local variable
+     1>..\Src\Singe\Audio\Audio.cpp(79): warning C4101: 'error' : unreferenced local variable
+     1>..\Src\Singe\Audio\Audio.cpp(77): warning C4101: 'bufferSize' : unreferenced local variable
+         SoundEffect.cpp
+         Frustum.cpp
+         Vec2.cpp
+         Vec3.cpp
+         Vec4.cpp
+         Camera.cpp
+         TargetCamera.cpp
+         Font.cpp
+         Mesh.cpp
+         Renderer.cpp
+         SceneNode.cpp
+     1>Done Building Project "A:\Projekt\Singe\Visual Studio 2013\Singe.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:11.79

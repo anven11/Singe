@@ -1,0 +1,35 @@
+﻿Build started 2014-08-25 21:03:30.
+     1>Project "A:\Projekt\Singe\Visual Studio\Singe.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         B:\Program Files\Microsoft Visual Studio Professional 2013\VC\bin\Lib.exe /OUT:"A:\Projekt\Singe\Visual Studio\..\Bin\Win32\Debug vs2013\Singe.lib" /NOLOGO "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\Frustum.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\Vec2.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\Vec3.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\Vec4.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\Camera.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\TargetCamera.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\Font.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\Mesh.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\Renderer.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\SceneNode.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\Shader.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\ShaderManager.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\Texture.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\TextureRenderTarget.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\SingeStd.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\Button.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\Canvas.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\MessageBox.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\FileSystem.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\Math.obj"
+         "A:\Projekt\Singe\Visual Studio\Intermediate\Singe\Win32\Debug vs2013\String.obj"
+     1>Canvas.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Button.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>SingeStd.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ShaderManager.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Frustum.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Singe.vcxproj -> A:\Projekt\Singe\Visual Studio\..\Bin\Win32\Debug vs2013\Singe.lib
+     1>Done Building Project "A:\Projekt\Singe\Visual Studio\Singe.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.25

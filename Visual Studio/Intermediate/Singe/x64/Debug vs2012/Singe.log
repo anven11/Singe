@@ -1,0 +1,66 @@
+﻿Build started 2014-08-25 12:59:26.
+     1>Project "E:\Projekt\Singe\Visual Studio\Singe.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"E:\Projekt\Singe\Visual Studio\..\Src\Singe\\" /Zi /nologo /W3 /WX- /sdl /Od /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\\" /Fd"E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\vc110.pdb" /Gd /TP /errorReport:prompt ..\Src\Singe\Geometry\Frustum.cpp ..\Src\Singe\Geometry\Vec2.cpp ..\Src\Singe\Geometry\Vec3.cpp ..\Src\Singe\Geometry\Vec4.cpp ..\Src\Singe\Graphics\Cameras\Camera.cpp ..\Src\Singe\Graphics\Cameras\TargetCamera.cpp ..\Src\Singe\Graphics\Font.cpp ..\Src\Singe\Graphics\Mesh.cpp ..\Src\Singe\Graphics\Renderer.cpp ..\Src\Singe\Graphics\SceneNode.cpp ..\Src\Singe\Graphics\Shader.cpp ..\Src\Singe\Graphics\ShaderManager.cpp ..\Src\Singe\Graphics\Texture.cpp ..\Src\Singe\Graphics\TextureRenderTarget.cpp ..\Src\Singe\SingeStd.cpp ..\Src\Singe\UI\Button.cpp ..\Src\Singe\UI\Canvas.cpp ..\Src\Singe\UI\MessageBox.cpp ..\Src\Singe\Utilities\FileSystem.cpp ..\Src\Singe\Utilities\Math.cpp ..\Src\Singe\Utilities\String.cpp
+         String.cpp
+     1>..\Src\Singe\Utilities\String.cpp(196): warning C4267: 'initializing' : conversion from 'size_t' to 'unsigned long', possible loss of data
+         Math.cpp
+         FileSystem.cpp
+         MessageBox.cpp
+         Canvas.cpp
+         Button.cpp
+         SingeStd.cpp
+         TextureRenderTarget.cpp
+         Texture.cpp
+         ShaderManager.cpp
+         Shader.cpp
+         SceneNode.cpp
+         Renderer.cpp
+         Mesh.cpp
+         Font.cpp
+     1>..\Src\Singe\Graphics\Font.cpp(41): warning C4267: 'argument' : conversion from 'size_t' to 'UINT32', possible loss of data
+     1>..\Src\Singe\Graphics\Font.cpp(45): warning C4267: '=' : conversion from 'size_t' to 'UINT32', possible loss of data
+         TargetCamera.cpp
+         Camera.cpp
+         Vec4.cpp
+         Vec3.cpp
+     1>..\Src\Singe\Geometry\Vec3.cpp(259): warning C4172: returning address of local variable or temporary
+         Vec2.cpp
+         Generating Code...
+         Compiling...
+         Frustum.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\Lib.exe /OUT:"E:\Projekt\Singe\Visual Studio\..\Bin\x64\Debug vs2012\Singe.lib" /NOLOGO /MACHINE:X64 "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\Frustum.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\Vec2.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\Vec3.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\Vec4.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\Camera.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\TargetCamera.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\Font.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\Mesh.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\Renderer.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\SceneNode.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\Shader.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\ShaderManager.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\Texture.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\TextureRenderTarget.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\SingeStd.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\Button.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\Canvas.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\MessageBox.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\FileSystem.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\Math.obj"
+         "E:\Projekt\Singe\Visual Studio\Intermediate\Singe\x64\Debug vs2012\String.obj"
+     1>Canvas.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Button.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>SingeStd.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>ShaderManager.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>Frustum.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         Singe.vcxproj -> E:\Projekt\Singe\Visual Studio\..\Bin\x64\Debug vs2012\Singe.lib
+     1>Done Building Project "E:\Projekt\Singe\Visual Studio\Singe.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:30.68
